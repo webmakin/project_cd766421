@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <!-- Importing CSS for styling -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Importing JavaScript for additional functionality -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Main container for the content -->
+    <div id="main-container">
+        <!-- Header section -->
+        <header>
+            <h1>Hello World</h1>
+        </header>
+        
+        <!-- Main content section -->
+        <main>
+            <p>Welcome to your first HTML5 page!</p>
+        </main>
+        
+        <!-- Footer section -->
+        <footer>
+            <p>&copy; 2023 Your Company</p>
+        </footer>
+    </div>
+
+    <!-- Error handling script -->
+    <script>
+        window.onerror = function(message, source, lineno, colno, error) {
+            console.error("Error occurred: ", message, " at ", source, ":", lineno, ":", colno);
+            return true; // Prevents the default browser error handling
+        };
+    </script>
+</body>
+</html>
