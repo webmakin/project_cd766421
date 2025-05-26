@@ -1,0 +1,8 @@
+{
+  "task_id": "cli_task_01e12db2",
+  "task_type": "cli",
+  "chunks": [
+    "Create a hello world file in html5"
+  ],
+  "instructions": "Process the following sub-tasks for the main task: Create a hello world file in html5..."
+}
